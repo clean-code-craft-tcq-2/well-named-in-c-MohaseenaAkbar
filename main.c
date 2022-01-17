@@ -6,9 +6,8 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
         MinorColorNames[colorPair->minorColor]);
 }
 
-}
-
-int main() {
+int main() 
+{
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
