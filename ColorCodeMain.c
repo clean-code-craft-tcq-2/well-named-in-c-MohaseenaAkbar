@@ -6,9 +6,6 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
         MinorColorNames[colorPair->minorColor]);
 }
 
-int numberOfMinorColors =
-    sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
-
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
 };
@@ -18,6 +15,9 @@ const char* MinorColorNames[] = {
 };
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
+
+int numberOfMinorColors =
+    sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
 int main() 
 {
