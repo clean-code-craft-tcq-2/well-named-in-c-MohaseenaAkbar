@@ -1,5 +1,4 @@
-#ifndef COLORCODEMAIN_H
-#define COLORCODEMAIN_H
+#include "ColorCodeMain.h"
 
 void ColorCodeReferenceManual()
 {
@@ -14,4 +13,3 @@ void ColorCodeReferenceManual()
     }
 }
 
-#endif
