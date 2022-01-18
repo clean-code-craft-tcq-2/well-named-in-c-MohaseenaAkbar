@@ -1,5 +1,4 @@
-#ifndef COLORCODEMAIN_H
-#define COLORCODEMAIN_H
+#include "ColorCodeMain.h"
 
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
@@ -19,4 +18,3 @@ void testPairToNumber(
     assert(pairNumber == expectedPairNumber);
 }
 
-#endif
