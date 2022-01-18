@@ -1,8 +1,5 @@
 #include "ColorCodeMain.h"
 
-int numberOfMajorColors =
-    sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-
 void ColorCodeReferenceManual()
 {
     int Pair_Num=1;
