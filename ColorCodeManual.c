@@ -1,12 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void ColorPairToString(const ColorPair* colorPair, char* buffer) {
-    sprintf(buffer, "%s %s",
-        MajorColorNames[colorPair->majorColor],
-        MinorColorNames[colorPair->minorColor]);
-}
-
 void ColorCodeReferenceManual()
 {
     int Pair_Num=1;
