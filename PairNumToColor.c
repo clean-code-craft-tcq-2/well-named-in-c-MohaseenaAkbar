@@ -1,5 +1,4 @@
-#ifndef COLORCODEMAIN_H
-#define COLORCODEMAIN_H
+#include "ColorCodeMain.h"
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
@@ -24,4 +23,3 @@ void testNumberToPair(int pairNumber,
     assert(colorPair.minorColor == expectedMinor);
 }
 
-#endif
