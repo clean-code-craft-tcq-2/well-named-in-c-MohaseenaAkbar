@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
 #include <assert.h>
 
@@ -30,3 +33,5 @@ void testPairToNumber(enum MajorColor,enum MinorColor,int);
 int GetPairNumberFromColor(const ColorPair*);
 void ColorPairToString(const ColorPair*, char*) ;
 void ColorCodeReferenceManual(void);
+
+#endif
