@@ -1,3 +1,5 @@
+#include "ColorCodeMain.h"
+
 void ColorCodeReferenceManual()
 {
     int Pair_Num=1;
