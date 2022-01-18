@@ -1,5 +1,4 @@
-#ifndef COLORCODEMAIN_H
-#define COLORCODEMAIN_H
+#include "ColorCodeMain.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
@@ -19,4 +18,3 @@ int main()
     return 0;
 }
 
-#endif
