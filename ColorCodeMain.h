@@ -1,5 +1,5 @@
 #ifndef COLORCODEMAIN_H
-#define COLORCODEMAIN_H 1
+#define COLORCODEMAIN_H
 
 #include <stdio.h>
 #include <assert.h>
