@@ -1,3 +1,6 @@
+#ifndef COLORCODEMAIN_H
+#define COLORCODEMAIN_H
+
 #include <stdio.h>
 #include <assert.h>
 
@@ -31,3 +34,4 @@ int GetPairNumberFromColor(const ColorPair*);
 void ColorPairToString(const ColorPair*, char*) ;
 void ColorCodeReferenceManual(void);
 
+#endif
