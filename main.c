@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+void ColorPairToString(const ColorPair* colorPair, char* buffer) {
+    sprintf(buffer, "%s %s",
+        MajorColorNames[colorPair->majorColor],
+        MinorColorNames[colorPair->minorColor]);
+}
+
 int main() 
 {
     testNumberToPair(4, WHITE, BROWN);
