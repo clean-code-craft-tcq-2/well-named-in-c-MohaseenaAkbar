@@ -6,6 +6,9 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
         MinorColorNames[colorPair->minorColor]);
 }
 
+int numberOfMinorColors =
+    sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+
 int main() 
 {
     testNumberToPair(4, WHITE, BROWN);
